@@ -1,5 +1,5 @@
 import React from 'react'
-import Student from './Student';
+import Student from './Student'
 
 const Comp03 = () => {
     const students=[
@@ -10,7 +10,7 @@ const Comp03 = () => {
     ];
     return (
         <div>
-            <h1>배열출력</h1>
+            <h1>배열 출력</h1>
             <table>
                 <thead>
                     <tr>
@@ -25,7 +25,6 @@ const Comp03 = () => {
                     )}
                 </tbody>
             </table>
-            
         </div>
     )
 }
